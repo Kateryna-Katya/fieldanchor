@@ -64,3 +64,42 @@ margin-top: 64px;
 margin-left: 0;
 }    
 }
+/* Features */
+.features-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.features-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 340px;
+}
+.features-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.features-item-title{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fffa61;
+}
+@media only screen and (min-width: 1440px) {
+.features-container{
+flex-direction: row;
+gap: 225px;
+}
+.features-wrapper{
+width: 544px;
+}
+.features-list{
+width: 530px;
+}
+.features-item-title{
+font-size: 20px;
+}    
+}
+/* How It Works */
