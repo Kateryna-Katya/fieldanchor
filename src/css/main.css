@@ -140,3 +140,14 @@ height: auto;
 font-size: 20px;
 }   
 }
+/* FAQ */
+.faq-item{
+border-radius: 16px;
+    padding: 16px;
+background: #197ea7;
+}
+@media only screen and (min-width: 1440px) {
+ .faq-list{
+    width: 100%;
+ }
+}
