@@ -90,6 +90,7 @@ margin-left: 0;
 @media only screen and (min-width: 1440px) {
 .features-container{
 flex-direction: row;
+align-items: start;
 gap: 225px;
 }
 .features-wrapper{
@@ -103,3 +104,8 @@ font-size: 20px;
 }    
 }
 /* How It Works */
+@media only screen and (min-width: 1440px) {
+.how-container{
+    flex-direction: row-reverse;
+}
+}
